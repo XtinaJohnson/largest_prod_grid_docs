@@ -1,7 +1,7 @@
 Euler Project Solver: Largest Product in a Grid
 ===================================
 
-**Largest_prod_grid** is a Python program that solves a problem posed by the Euler Project:*
+**Largest_prod_grid** is a Python program that solves a problem posed by the Euler Project:
 
 ::
     Test block
