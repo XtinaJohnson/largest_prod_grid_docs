@@ -1,4 +1,4 @@
-Welcome to Lumache's documentation!
+Project Euler Solver: Largest Product in a Grid
 ===================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
