@@ -1,7 +1,20 @@
 Project Euler Solver: Largest Product in a Grid
-===================================
+===============================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
+**Largest_Prod_Grid** is a Python program that solves a problem posed
+by the Euler Project: 
+
+Given a 20 x 20 table of numbers, find the largest product of four adjacent
+numbers. The four numbers can run in any of these directions: up, down, left,
+right, or diagonal.
+
+**Largest_Prod_Grid** generalizes the solution -- it can compute the largest 
+product of four adjacent numbers in table that's at least 4 x 4.
+
+
+
+
+library for cooks and food lovers
 that creates recipes mixing random ingredients.
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
