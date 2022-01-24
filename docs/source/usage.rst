@@ -4,11 +4,11 @@ Usage
 Run the program
 ---------------
 
-On the command line, type the following, where ``[filename.txt]`` is the name of your file that contains a table of numbers. (See below for examples of tables.)
+On the command line, type the following, where ``[filename.txt]`` is the name of your text file that contains a table of numbers. (See below for examples of tables.)
 
 .. code-block:: console
 
-   python3 largest_prod_grid.py [filename.txt]
+   $ python3 largest_prod_grid.py [filename.txt]
    
 Run the program with debugging print statements
 -----------------------------------------------
