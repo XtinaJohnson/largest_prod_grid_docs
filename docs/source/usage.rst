@@ -12,7 +12,10 @@ To run the program, type:
 
    python3 largest_prod_grid.py [filename.txt]
    
-The .txt file should contain a square table of integers separated by spaces. Here's an example of a 20 x 20 table: ::
+The .txt file should contain a square table of integers separated by spaces. Here are two examples
+of tables (these are also in the repo).
+
+A 20 x 20 table: ::
 
     08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08
     49 49 99 40 17 81 18 57 60 87 17 40 98 43 69 48 04 56 62 00
@@ -35,3 +38,16 @@ The .txt file should contain a square table of integers separated by spaces. Her
     20 73 35 29 78 31 90 01 74 31 49 71 48 86 81 16 23 57 05 54
     01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48
 
+A 5 x 5 table. Note that one-digit numbers don't need to have leading zeroes: ::
+
+    1 2 3 4 5
+    6 7 8 9 10
+    11 12 13 14 15
+    16 17 18 19 20
+    21 22 23 24 25
+    
+When the program runs successfully, the output looks something like this:
+
+.. code-block:: console
+
+   The largest product from the table is 70600674.
