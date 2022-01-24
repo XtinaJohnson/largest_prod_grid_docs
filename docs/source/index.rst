@@ -7,8 +7,7 @@ by `Project Euler <https://projecteuler.net/>`_:
 Given a 20 x 20 table of numbers, find the largest product of four linearly adjacent
 numbers. The four numbers can run up, down, left, right, or diagonally.::
 
-This implementation generalizes the solution -- it can compute the largest 
-product of four adjacent numbers in table that's at least 4 x 4.
+    This implementation generalizes the solution -- it can compute the largest product of four adjacent numbers in table that's at least 4 x 4.
 
 The code lives in `this repo <https://github.com/XtinaJohnson/largest_prod_grid/>`_, which also contains two samples text files that contain tables. 
 
