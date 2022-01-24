@@ -1,5 +1,16 @@
 # Configuration file for the Sphinx documentation builder.
 
+# Look for things in the current directory.
+import sys
+sys.path.insert(0, os.path.abspath('.'))
+
+# Mock up numpy so stupid Sphinx doesn't get bent out of shape looking for it. This is gross.
+# (https://blog.rtwilson.com/how-to-make-your-sphinx-documentation-compile-with-readthedocs-when-youre-using-numpy-and-scipy/)
+import mock
+MOCK_MODULES = ['numpy']
+for mod_name in MOCK_MODULES:
+    sys.modules[mod_name] = mock.Mock()
+
 # -- Project information
 
 project = 'Lumache'
