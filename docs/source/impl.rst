@@ -11,7 +11,7 @@ Functions
    :param filename: The name of the file that contains the table.
    :type filename: str
    :return: The multidimensional array.
-   :rtype: reshaped_array : ndarray
+   :rtype: numpy.ndarray
 
 .. py:function:: get_products(numbers)
 
@@ -27,7 +27,7 @@ Functions
    Given a multidimensional array, turn each row into a list and give it to the get_products function. Add the returned list of products to a list. Return the complete list of row products.
    
    :param table: A multidimensional array.
-   :type numbers: reshaped_array : ndarray
+   :type table: numpy.ndarray
    :return: The list of products from every row of the table.
    :rtype: list[str]
 
