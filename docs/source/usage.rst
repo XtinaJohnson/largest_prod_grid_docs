@@ -1,20 +1,18 @@
-Implementation
-==============
+Usage
+=====
 
-Functions
-----------------
+Run the program
+------------
 
-.. py:function:: read_table(filename)
+To run the program, type: 
 
-   Given a file that contains a table of integers, return the table as a multidimensional array.
+.. code-block:: console
+
+   python3 largest_prod_grid.py [filename.txt]
+  
+
    
-   :param filename: The name of the file that contains the table.
-   :type filename: str
-   :return: The multidimensional array
-   :rtype: reshaped_array : ndarray
-
-Below this line is template stuff
-
+   
 .. _installation:
 
 Installation
