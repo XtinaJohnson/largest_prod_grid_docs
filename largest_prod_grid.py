@@ -253,7 +253,7 @@ def get_antidiagonal_products(table):
     return(products)
 
 
-if __name__ == '__main__'
+if __name__ == '__main__':
 
     # Get the table data from the file and turn it into a multidimensional array.
     table = read_table('number_table.txt')
