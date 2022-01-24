@@ -61,44 +61,9 @@ Functions
 
 .. py:function:: get_antidiagonal_products(table)
 
-   Given a multidimensional array, turn each antidiagonal (from bottom left to top right) into a list and give it to the get_products function. Add the returned list of products to a list. Return the complete list of diagonal products.
+   Given a multidimensional array, turn each antidiagonal (from bottom left to top right) into a list and give it to the get_products function. Add the returned list of products to a list. Return the complete list of antidiagonal products.
    
    :param table: A multidimensional array.
    :type table: numpy.ndarray
    :return: The list of products from every antidiagonal of the table.
    :rtype: list[str]
-
-
-
-Below this line is template stuff
-
-.. _installation:
-
-Installation
-------------
-
-To use Lumache, first install it using pip:
-
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-#.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-#.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
