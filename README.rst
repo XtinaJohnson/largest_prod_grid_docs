@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
-=======================================
+Euler Project Solver: Largest Product in a Grid
+===============================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Read the documentation here:
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+https://cajohnson-rtd-tutorial.readthedocs.io/en/latest/index.html
