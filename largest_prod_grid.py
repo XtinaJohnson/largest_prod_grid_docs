@@ -252,37 +252,40 @@ def get_antidiagonal_products(table):
         diag += 1
     return(products)
 
-# Get the table data from the file and turn it into a multidimensional array.
-table = read_table('number_table.txt')
-show('Table from file as a multidimensional array:')
-show(table)
 
-# Create an empty list to extend with all the other lists as we get them
-all_products = []
+if __name__ == '__main__'
 
-# Get the row products and add them to the all_products list.
-get_row_products(table)
-rows_products = get_row_products(table)
-all_products.extend(rows_products)
+    # Get the table data from the file and turn it into a multidimensional array.
+    table = read_table('number_table.txt')
+    show('Table from file as a multidimensional array:')
+    show(table)
 
-# Get the column products and add them to the all_products list.
-cols_products = get_col_products(table)
-all_products.extend(cols_products)
+    # Create an empty list to extend with all the other lists as we get them
+    all_products = []
 
-# Get the products of all the diagonals that run from the upper left to
-# the lower right and add them to the all_products list.
-diag_products = get_diagonal_products(table)
-all_products.extend(diag_products)
+    # Get the row products and add them to the all_products list.
+    get_row_products(table)
+    rows_products = get_row_products(table)
+    all_products.extend(rows_products)
 
-# Get the products of all the diagonals that run from the upper left to
-# the lower right and add them to the all_products list.
-antidiag_products = get_antidiagonal_products(table)
-all_products.extend(antidiag_products)
+    # Get the column products and add them to the all_products list.
+    cols_products = get_col_products(table)
+    all_products.extend(cols_products)
 
-# Sort the big list and get the last (largest) one.
-all_products.sort()
-show('List of products: %s' %all_products)
-show('Length of product list: %s' %len(all_products))
-print('The largest product from the table is %i' %all_products[(len(all_products) - 1)])
+    # Get the products of all the diagonals that run from the upper left to
+    # the lower right and add them to the all_products list.
+    diag_products = get_diagonal_products(table)
+    all_products.extend(diag_products)
+
+    # Get the products of all the diagonals that run from the upper left to
+    # the lower right and add them to the all_products list.
+    antidiag_products = get_antidiagonal_products(table)
+    all_products.extend(antidiag_products)
+
+    # Sort the big list and get the last (largest) one.
+    all_products.sort()
+    show('List of products: %s' %all_products)
+    show('Length of product list: %s' %len(all_products))
+    print('The largest product from the table is %i' %all_products[(len(all_products) - 1)])
 
 
