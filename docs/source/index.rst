@@ -11,7 +11,7 @@ right, or diagonal.
 Largest_Prod_Grid generalizes the solution -- it can compute the largest 
 product of four adjacent numbers in table that's at least 4 x 4.
 
-The code lives in `this repo <hhttps://github.com/XtinaJohnson/largest_prod_grid/>`_, which also contains two samples text files that contain tables. (See more about these examples in :doc:`usage`.)
+The code lives in `this repo <https://github.com/XtinaJohnson/largest_prod_grid/>`_, which also contains two samples text files that contain tables. (See more about these examples in :doc:`usage`.)
 
 .. note::
 
