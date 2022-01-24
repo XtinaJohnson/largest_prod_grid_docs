@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'largest_prod_grid.py'
-copyright = '2022, Johnson'
-author = 'Johnson'
+copyright = '2022, Christina Johnson'
+author = 'Christina Johnson'
 
 release = '0.1'
 version = '0.1.0'
