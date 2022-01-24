@@ -55,9 +55,9 @@ Functions
 
    :param table: A multidimensional array.
    :type table: numpy.ndarray
-   :param k:
+   :param k: The index of the antidiagonal band to be extracted (similar to that for NumPy's ``diagonal`` method).
    :type k: int
-   :return: The list of products from every diagonal of the table.
+   :return: The list of products from every antidiagonal of the table.
 
 .. py:function:: get_antidiagonal_products(table)
 
