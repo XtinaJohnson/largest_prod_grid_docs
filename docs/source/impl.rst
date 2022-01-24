@@ -6,7 +6,7 @@ Functions
 
 .. py:function:: read_table(filename)
 
-   Given a file that contains a table of integers, return the table as a multidimensional array.
+   Given a file that contains a square table of integers, return the table as a multidimensional array. If the table isn't square (that is, the number of rows does not equal the number of columns), or if the table contains anything other than integers, the program prints an error message and exits.
    
    :param filename: The name of the file that contains the table.
    :type filename: str
