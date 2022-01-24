@@ -15,7 +15,7 @@ Run the program with debugging print statements
 
 To show print statements designed to help debug the program, set the verbose flag to True.
 
-.. code-block:: python:
+.. code-block:: python
 
    verbose = True
 
