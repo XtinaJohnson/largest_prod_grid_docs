@@ -1,5 +1,12 @@
-Usage
-=====
+Implementation
+==============
+
+Functions
+----------------
+
+.. autofunction:: largest_prod_grid.read_table
+
+Below this line is template stuff
 
 .. _installation:
 
