@@ -4,14 +4,16 @@ Usage
 Run the program
 ---------------
 
-The program takes the name of a .txt file as an argument.
-
-To run the program, type:
+The program takes the name of a .txt file as an argument. To run the program, type:
 
 .. code-block:: console
 
    python3 largest_prod_grid.py [filename.txt]
    
+
+Examples of number tables
+-------------------------
+
 The .txt file should contain a square table of integers separated by spaces. Here are two examples
 of tables (these are also in the repo).
 
@@ -46,7 +48,10 @@ A 5 x 5 table. Note that one-digit numbers don't need to have leading zeroes: ::
     16 17 18 19 20
     21 22 23 24 25
     
-When the program runs successfully, the output looks something like this:
+Example output
+--------------
+
+When the program runs successfully, the output looks like this:
 
 .. code-block:: console
 
