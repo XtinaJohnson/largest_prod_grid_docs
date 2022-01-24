@@ -13,7 +13,7 @@ On the command line, type the following, where ``[filename]`` is the name of you
 Run the program with debugging print statements
 -----------------------------------------------
 
-To show print statements designed to help debug the program, set the verbose flag to True.
+To show print statements designed to help debug the program, open the program in an editor and set the verbose flag to True.
 
 .. code-block:: python
 
