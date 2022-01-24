@@ -5,7 +5,7 @@ Project Euler Solver: Largest Product in a Grid
 by `Project Euler <https://https://projecteuler.net/>`_: 
 
 ::
-Given a 20 x 20 table of numbers, find the largest product of four adjacent
+    Given a 20 x 20 table of numbers, find the largest product of four adjacent
 numbers. The four numbers can run in any of these directions: up, down, left,
 right, or diagonal.
 
