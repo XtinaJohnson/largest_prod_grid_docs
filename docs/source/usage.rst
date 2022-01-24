@@ -55,4 +55,4 @@ When the program runs successfully, the output looks like this:
 
 .. code-block:: console
 
-   The largest product from the table is 70600674.
+   The largest product of four adjacent numbers in the table is 70600674.
