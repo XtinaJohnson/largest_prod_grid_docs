@@ -4,7 +4,14 @@ Implementation
 Functions
 ----------------
 
-.. autofunction:: largest_prod_grid.read_table
+.. py:function:: read_table(filename)
+
+   Given a file that contains a table of integers, return the table as a multidimensional array.
+   
+   :param filename: The name of the file that contains the table.
+   :type filename: str
+   :return: The multidimensional array
+   :rtype: reshaped_array : ndarray
 
 Below this line is template stuff
 
