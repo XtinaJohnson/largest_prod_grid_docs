@@ -10,6 +10,15 @@ The program takes the name of a .txt file as an argument. To run the program, ty
 
    python3 largest_prod_grid.py [filename.txt]
    
+Run the program with debugging print statements
+-----------------------------------------------
+
+To show print statements designed to help debug the program, set the verbose flag to True.
+
+.. code-block:: python:
+
+   verbose = True
+
 
 Examples of number tables
 -------------------------
