@@ -4,11 +4,11 @@ Usage
 Run the program
 ---------------
 
-On the command line, type the following, where ``[filename.txt]`` is the name of your text file that contains a table of numbers. (See below for examples of tables.)
+On the command line, type the following, where ``[filename]`` is the name of your text file that contains a table of numbers. (See below for examples of tables.)
 
 .. code-block:: console
 
-   $ python3 largest_prod_grid.py [filename.txt]
+   $ python3 largest_prod_grid.py [filename]
    
 Run the program with debugging print statements
 -----------------------------------------------
@@ -23,7 +23,7 @@ To show print statements designed to help debug the program, set the verbose fla
 Examples of number tables
 -------------------------
 
-The .txt file should contain a square table of integers separated by spaces. Here are two examples
+The file should contain a square table of integers separated by spaces. Here are two examples
 of tables (these are also in the repo).
 
 A 20 x 20 table: ::
