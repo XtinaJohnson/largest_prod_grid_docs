@@ -6,7 +6,7 @@ Functions
 
 .. py:function:: read_table(filename)
 
-   Given a file that contains a square table of integers, return the table as a multidimensional array. If the table isn't square (that is, the number of rows does not equal the number of columns), or if the table contains anything other than integers, the program prints an error message and exits.
+   Given a file that contains a square table of integers, returns the table as a multidimensional array. If the table isn't square (that is, the number of rows does not equal the number of columns), or if the table contains anything other than integers, the program prints an error message and exits.
    
    :param filename: The name of the file that contains the table.
    :type filename: str
@@ -24,7 +24,7 @@ Functions
 
 .. py:function:: get_row_products(table)
 
-   Given a multidimensional array, turn each row into a list and give it to the get_products function. Add the returned list of products to a list. Return the complete list of row products.
+   Given a multidimensional array, turns each row into a list and give it to the get_products function. Adds the returned list of products to a list. Returns the complete list of row products.
    
    :param table: A multidimensional array.
    :type table: numpy.ndarray
@@ -33,7 +33,7 @@ Functions
 
 .. py:function:: get_col_products(table)
 
-   Given a multidimensional array, turn each column into a list and give it to the get_products function. Add the returned list of products to a list. Return the complete list of column products.
+   Given a multidimensional array, turns each column into a list and give it to the get_products function. Adds the returned list of products to a list. Returns the complete list of column products.
    
    :param table: A multidimensional array.
    :type table: numpy.ndarray
@@ -42,7 +42,7 @@ Functions
 
 .. py:function:: get_diagonal_products(table)
 
-   Given a multidimensional array, turn each diagonal (from top left to bottom right) into a list and give it to the get_products function. Add the returned list of products to a list. Return the complete list of diagonal products.
+   Given a multidimensional array, turns each diagonal (from top left to bottom right) into a list and give it to the get_products function. Adds the returned list of products to a list. Returns the complete list of diagonal products.
    
    :param table: A multidimensional array.
    :type table: numpy.ndarray
@@ -58,10 +58,11 @@ Functions
    :param k: The index of the antidiagonal band to be extracted (similar to that for NumPy's ``diagonal`` method).
    :type k: int
    :return: The list of products from every antidiagonal of the table.
+   :rtype: list[int]
 
 .. py:function:: get_antidiagonal_products(table)
 
-   Given a multidimensional array, turn each antidiagonal (from bottom left to top right) into a list and give it to the get_products function. Add the returned list of products to a list. Return the complete list of antidiagonal products.
+   Given a multidimensional array, turns each antidiagonal (from bottom left to top right) into a list and give it to the get_products function. Adds the returned list of products to a list. Returns the complete list of antidiagonal products.
    
    :param table: A multidimensional array.
    :type table: numpy.ndarray
