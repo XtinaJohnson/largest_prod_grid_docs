@@ -31,8 +31,42 @@ Functions
    :return: The list of products from every row of the table.
    :rtype: list[str]
 
+.. py:function:: get_col_products(table)
 
+   Given a multidimensional array, turn each column into a list and give it to the get_products function. Add the returned list of products to a list. Return the complete list of column products.
+   
+   :param table: A multidimensional array.
+   :type table: numpy.ndarray
+   :return: The list of products from every column of the table.
+   :rtype: list[str]
 
+.. py:function:: get_diagonal_products(table)
+
+   Given a multidimensional array, turn each diagonal (from top left to bottom right) into a list and give it to the get_products function. Add the returned list of products to a list. Return the complete list of diagonal products.
+   
+   :param table: A multidimensional array.
+   :type table: numpy.ndarray
+   :return: The list of products from every diagonal of the table.
+   :rtype: list[str]
+
+.. py:function:: antidiagonal(table,k)
+
+  Gets the kth "antidiagonal" for the given table. Here we define the antidiagonal of a table as the band running from bottom left to top right, at a right angle to each of the diagonal bands.
+
+   :param table: A multidimensional array.
+   :type table: numpy.ndarray
+   :param k:
+   :type k: int
+   :return: The list of products from every diagonal of the table.
+
+.. py:function:: get_antidiagonal_products(table)
+
+   Given a multidimensional array, turn each antidiagonal (from bottom left to top right) into a list and give it to the get_products function. Add the returned list of products to a list. Return the complete list of diagonal products.
+   
+   :param table: A multidimensional array.
+   :type table: numpy.ndarray
+   :return: The list of products from every antidiagonal of the table.
+   :rtype: list[str]
 
 
 
