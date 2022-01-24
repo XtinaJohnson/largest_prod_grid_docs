@@ -4,7 +4,7 @@ Usage
 Run the program
 ---------------
 
-The program takes the name of a .txt file as an argument. To run the program, type:
+On the command line, type the following, where [filename.txt] is the name of your file that contains a table of numbers. (See below for examples of tables.)
 
 .. code-block:: console
 
