@@ -19,7 +19,7 @@ Functions
 
 .. py:function:: get_products(numbers)
 
-   Given a list of numbers, get the products of every set of four adjacent numbers. Return the list of products.
+   Given a list of numbers, gets the products of every set of four adjacent numbers. Returns the list of products.
    
    :param numbers: A list of numbers.
    :type numbers: list[str]
@@ -28,7 +28,7 @@ Functions
 
 .. py:function:: get_row_products(table)
 
-   Given a multidimensional array, turns each row into a list and give it to the get_products function. Adds the returned list of products to a list. Returns the complete list of row products.
+   Given a multidimensional array, turns each row into a list and gives it to the get_products function. Adds the returned list of products to a list. Returns the complete list of row products.
    
    :param table: A multidimensional array.
    :type table: numpy.ndarray
@@ -37,7 +37,7 @@ Functions
 
 .. py:function:: get_col_products(table)
 
-   Given a multidimensional array, turns each column into a list and give it to the get_products function. Adds the returned list of products to a list. Returns the complete list of column products.
+   Given a multidimensional array, turns each column into a list and gives it to the get_products function. Adds the returned list of products to a list. Returns the complete list of column products.
    
    :param table: A multidimensional array.
    :type table: numpy.ndarray
@@ -46,7 +46,7 @@ Functions
 
 .. py:function:: get_diagonal_products(table)
 
-   Given a multidimensional array, turns each diagonal (from top left to bottom right) into a list and give it to the get_products function. Adds the returned list of products to a list. Returns the complete list of diagonal products.
+   Given a multidimensional array, turns each diagonal (from top left to bottom right) into a list and gives it to the get_products function. Adds the returned list of products to a list. Returns the complete list of diagonal products.
    
    :param table: A multidimensional array.
    :type table: numpy.ndarray
@@ -66,7 +66,7 @@ Functions
 
 .. py:function:: get_antidiagonal_products(table)
 
-   Given a multidimensional array, turns each antidiagonal (from bottom left to top right) into a list and give it to the get_products function. Adds the returned list of products to a list. Returns the complete list of antidiagonal products.
+   Given a multidimensional array, turns each antidiagonal (from bottom left to top right) into a list and gives it to the get_products function. Adds the returned list of products to a list. Returns the complete list of antidiagonal products.
    
    :param table: A multidimensional array.
    :type table: numpy.ndarray
