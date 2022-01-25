@@ -3,7 +3,7 @@ Implementation
 
 For reference, the source code is `here <https://github.com/XtinaJohnson/largest_prod_grid>`_.
 
-The ``read_table`` function reads a text file that contains a square table of integers and converts it into a multidimensional array. The functions ``get_row_products``, ``get_col_products``, ``get_diagonal_products``, and ``get_antidiagonal_products`` send the numbers from each row, column, diagonal, and "antidiagonal" to the ``get_products`` function. (Here we define the antidiagonal of a table as the band running from bottom left to top right, at a right angle to each of the diagonal bands.) The ``get_products`` function computes the products of each set of four adjacent numbers and returns the list of products for each row, column, etc. to the calling function. The calling function collects all the products in a list and returns the list. A list of all products is sorted in ascending order, and the last (largest) product is printed.
+The ``read_table`` function reads a text file that contains a square table of integers and converts it into a multidimensional array. The functions ``get_row_products``, ``get_col_products``, ``get_diagonal_products``, and ``get_antidiagonal_products`` send the numbers from each row, column, diagonal, and "antidiagonal"[#f1]_ to the ``get_products`` function. The ``get_products`` function computes the products of each set of four adjacent numbers and returns the list of products for each row, column, etc. to the calling function. The calling function collects all the products in a list and returns the list. A list of all products is sorted in ascending order, and the last (largest) product is printed.
 
 Functions
 ----------------
@@ -55,7 +55,7 @@ Functions
 
 .. py:function:: antidiagonal(table,k)
 
-  Gets the kth "antidiagonal" for the given table. Here we define the antidiagonal of a table as the band running from bottom left to top right, at a right angle to each of the diagonal bands.
+  Gets the kth "antidiagonal"[#f1]_ for the given table.
 
    :param table: A multidimensional array.
    :type table: numpy.ndarray
@@ -72,3 +72,6 @@ Functions
    :type table: numpy.ndarray
    :return: The list of products from every antidiagonal of the table.
    :rtype: list[str]
+
+.. rubric:: Footnotes
+.. [#f1] Here we define the antidiagonal of a table as the band running from bottom left to top right, at a right angle to each of the diagonal bands.
