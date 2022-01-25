@@ -55,7 +55,7 @@ Functions
 
 .. py:function:: antidiagonal(table,k)
 
-  Gets the kth "antidiagonal"[#f1]_ for the given table.
+  Gets the kth "antidiagonal" for the given table.
 
    :param table: A multidimensional array.
    :type table: numpy.ndarray
