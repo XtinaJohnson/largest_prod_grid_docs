@@ -1,6 +1,10 @@
 Implementation
 ==============
 
+For reference, the source code is `here <https://github.com/XtinaJohnson/largest_prod_grid>`_.
+
+The ``read_table`` function reads a text file that contains a square table of integers and converts it into a multidimensional array. The functions ``get_row_products``, ``get_col_products``, ``get_diagonal_products``, and ``get_antidiagonal_products`` send the numbers from each row, column, diagonal, and "antidiagonal" to the ``get_products`` function. The ``get_products`` function computes the products of each set of four adjacent numbers and returns the list of products for each row, column, etc. to the calling function. The calling function collects all the products in a list and returns the list. A list of all products is sorted in ascending order, and the last (largest) product is printed.
+
 Functions
 ----------------
 
