@@ -57,10 +57,8 @@ Functions
 
   Gets the kth "antidiagonal" for the given table.
 
-   :param table: A multidimensional array.
-   :param k: The index of the antidiagonal band to be extracted (similar to that for NumPy's ``diagonal`` method).
-   :type table: numpy.ndarray
-   :type k: int
+   :param numpy.ndarray table: A multidimensional array.
+   :param int k: The index of the antidiagonal band to be extracted (similar to that for NumPy's ``diagonal`` method).
    :return: The list of products from every antidiagonal of the table.
    :rtype: list[int]
 
