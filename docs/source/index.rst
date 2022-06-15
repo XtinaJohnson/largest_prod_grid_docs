@@ -29,3 +29,7 @@ To see how the program is implemented, see :doc:`impl`.
 
     usage
     impl
+    
+
+Test
+See :download:`this example script <../test.txt>`.
