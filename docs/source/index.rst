@@ -25,11 +25,11 @@ We describe how to use the program and provide examples of input in :doc:`usage`
 
 To see how the program is implemented, see :doc:`impl`.
 
+See :download:`this example script <../test.txt>`.
+
 .. toctree::
 
     usage
     impl
     
 
-Test
-See :download:`this example script <../test.txt>`.
